@@ -5,6 +5,10 @@ import BrightnessLowTwoToneIcon from '@mui/icons-material/BrightnessLowTwoTone';
 import MmsTwoToneIcon from '@mui/icons-material/MmsTwoTone';
 import TableChartTwoToneIcon from '@mui/icons-material/TableChartTwoTone';
 import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
+import BookmarksTwoToneIcon from '@mui/icons-material/BookmarksTwoTone';
+import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
+import GroupsTwoToneIcon from '@mui/icons-material/GroupsTwoTone';
+
 import BallotTwoToneIcon from '@mui/icons-material/BallotTwoTone';
 import BeachAccessTwoToneIcon from '@mui/icons-material/BeachAccessTwoTone';
 import EmojiEventsTwoToneIcon from '@mui/icons-material/EmojiEventsTwoTone';
@@ -44,8 +48,8 @@ const menuItems: MenuItems[] = [
     heading: 'Dashboards',
     items: [
       {
-        name: 'Crypto',
-        link: '/dashboards/crypto',
+        name: 'Laman Utama',
+        link: '/dashboards/utama',
         icon: BrightnessLowTwoToneIcon
       },
       {
@@ -79,6 +83,26 @@ const menuItems: MenuItems[] = [
         ]
       }
     ]
+  },
+  {
+    heading: 'Kumpulan',
+    items: [
+      {
+        name: 'Senarai Hadith',
+        icon: BookmarksTwoToneIcon,
+        link: '/kumpulan/senarai-hadith'
+      },
+      {
+        name: 'Senarai Kitab Rujukan',
+        icon: MenuBookTwoToneIcon,
+        link: '/kumpulan/senarai-kitab-rujukan'
+      },
+      {
+        name: 'Senarai Perawi',
+        icon: GroupsTwoToneIcon,
+        link: '/kumpulan/senarai-perawi'
+      },
+    ], 
   },
   {
     heading: 'Components',
